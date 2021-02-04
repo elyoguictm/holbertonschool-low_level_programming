@@ -15,18 +15,18 @@ int main(void)
 
 	for (w = '0'; w <= '9'; w++)
 		for (x = '0'; x <= '9'; x++)
-
+		{
 			putchar(w);
-	putchar(x);
-	if (x == '9' && w == '9')
-
-
-	else
-
-		putchar(',');
-	putchar(' ');
-
-
+			putchar(x);
+			if (x == '9' && w == '9')
+			{
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	putchar('\n');
 	return (0);
 }
