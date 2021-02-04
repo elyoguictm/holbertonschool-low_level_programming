@@ -3,9 +3,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-/* main - main funtion
-/* betty style doc for function main goes there */
+/**
+ * main - main funtion
+ *
+ * Return: 0 to exit
+ */
 
 int main(void)
 {
