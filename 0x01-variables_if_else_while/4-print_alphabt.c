@@ -9,19 +9,13 @@
  */
 int main(void)
 {
-	int x, y;
+	int x;
 
 	for (x = 'a'; x <= 'z'; x++)
-
-		putchar(x);
-
-
-	for (y = 'A'; y <= 'Z'; y++)
-
-		putchar(y);
-
-
+	{
+		if (x != 'q' && x != 'e')
+			putchar(x);
+	}
 	putchar('\n');
-
 	return (0);
 }
