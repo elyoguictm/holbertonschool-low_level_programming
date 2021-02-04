@@ -11,10 +11,11 @@
  */
 int main(void)
 {
-	int n, xd;
+	int n, ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 
 	ld = n % 10;
 
@@ -22,16 +23,16 @@ int main(void)
 
 	if (ld >= 5)
 	{
-		printf(" is %d and is greater than 5\n", xd);
+		printf(" is %d and is greater than 5\n", ld);
 	}
 
 	if (ld == 0)
 	{
-		printf(" is %d and is 0\n", xd);
+		printf(" is %d and is 0\n", ld);
 	}
 	else if (ld < 6)
 	{
-		printf(" is %d and is less than 6 and not 0\n", xd);
+		printf(" is %d and is less than 6 and not 0\n", ld);
 	}
 
 	return (0);
