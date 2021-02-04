@@ -15,13 +15,13 @@ int main(void)
 
 	ch = a;
 
-	while (ch <="z")
+	while (ch <='z')
 	{
 		putchar(ch);
 		ch++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
