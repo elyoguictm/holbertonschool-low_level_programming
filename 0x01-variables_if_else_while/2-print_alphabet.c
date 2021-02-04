@@ -9,19 +9,15 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char ch;
+	char x;
 
-	ch = a;
-
-	while (ch <='z')
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(ch);
-		ch++;
+		putchar(x);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
