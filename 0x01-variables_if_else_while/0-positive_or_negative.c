@@ -25,10 +25,10 @@ int main(void)
 
 			printf("d% is zero\n", n);
 
-		else
-			if (n < 0)
+        else
+		if (n < 0)
 
-				printf("is negative\n", n);
+			printf("is negative\n", n);
 
 	return (0);
 }
