@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * print_last_digit
+ * print_last_digit - sdadadasda dasda
  *
- *
- * Return
+ * @num: hfjkdsfhjdfjd
+ * Return: zero
  */
 
 int print_last_digit(int num)
