@@ -1,4 +1,4 @@
-#include "holberton.h"
+B#include "holberton.h"
 
 /**
  *print_alphabet - prints the alphabet, in lowercase, followed by a new line
@@ -14,4 +14,6 @@ void print_alphabet(void)
 		letter++;
 	}
 	_putchar('\n');
+
+	return;
 }
