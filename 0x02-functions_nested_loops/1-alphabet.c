@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *print_alphabet: prints the alphabet void from a - z followed by a new line
+ *print_alphabet- prints the alphabet void from a - z followed by a new line
  *
  *Return: return void
  */
@@ -17,5 +17,5 @@ void print_alphabet(void)
 	}
 	_putchar(10);
 
-	return;
+	return ();
 }
