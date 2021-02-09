@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_times_table - print times 
+ * print_times_table - print times
  *
  * @n: eeeeeeeeeee
  *
