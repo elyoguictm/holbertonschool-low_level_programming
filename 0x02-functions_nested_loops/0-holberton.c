@@ -1,8 +1,9 @@
 #include "holberton.h"
+
 /**
- *main - holberton followed by a newline
+ * main - holberton followed by a newline
  *
- *return: zero
+ * Return: zero
  */
 
 int main(void)
