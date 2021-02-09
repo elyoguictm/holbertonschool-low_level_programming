@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * _abs 
- * 
+ * _abs - dsadsadasda dsad
  *
- * Return x
+ * @x: dasdasdkahjd dasjdkjasd
+ * Return: x
  */
 
 int _abs(int x)
