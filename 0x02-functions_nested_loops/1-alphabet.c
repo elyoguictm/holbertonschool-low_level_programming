@@ -1,21 +1,17 @@
 #include "holberton.h"
 
 /**
- *print_alphabet- prints the alphabet void from a - z followed by a new line
+ * print_alphabet - Functrion
  *
- *Return: return void
+ *its a functrion putchat
  */
-
 void print_alphabet(void)
 {
-	int a;
+	int w;
 
-	a = 'a';
-	while (a <= 'z')
+	for (w = 'a' ; w <= 'z' ; w++)
 	{
-		_putchar(a++);
+		_putchar(w);
 	}
-	_putchar(10);
-
-	return;
+	_putchar('\n');
 }
