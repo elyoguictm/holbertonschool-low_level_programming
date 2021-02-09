@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *print_sign 
- * 
+ * print_sign - dasdasdadsa
+ * @n: fdhskfhshs
  *
  * Return: 1
  */
