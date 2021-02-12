@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	long int z, x = 612852475143;
+long int z, x = 612852475143;
 	for (z = 2; z < x; z++)
 		if (x % z == 0)
 		{
 			x = x / z;
 		}
-	printf("%ld\x", z);
+	printf("%ld\n", z);
 	return (0);
 }
