@@ -1,12 +1,10 @@
 #include "holberton.h"
 
 /**
- * print_number - prints an integer
- * @n: variable to check
- *
- * Description: prints intergers even negative
- *
- * Return: 0 success
+ * print_number - prints num
+ * @n: variable
+ * Description: prints 
+ * Return: 0
  */
 
 void print_number(int n)
