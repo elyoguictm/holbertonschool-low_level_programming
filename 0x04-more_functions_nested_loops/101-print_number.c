@@ -3,7 +3,7 @@
 /**
  * print_number - prints num
  * @n: variable
- * Description: prints 
+ * Description: prints
  * Return: 0
  */
 
