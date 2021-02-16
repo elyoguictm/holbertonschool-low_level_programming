@@ -1,20 +1,28 @@
 #include "holberton.h"
 
+
 /**
  * rev_string - rev string
- * @s: ssssss
+ * @s: s to s
  */
 
 void rev_string(char *s)
 {
-	int len, i;
-	char c;
+	int z = 0;
+	int x = 0;
+	int t;
 
-	for (len = 0; s[len] != 0; len++)
+	while (s[z] != '\0')
 	{
+		z++;
 	}
-	for (len = len - 1; len >= 0; len--)
-	{
 
+	z--;
+
+	while (z > x)
+	{
+		t = s[z];
+		s[z--] = s[x];
+		s[x++] = t;
 	}
 }
