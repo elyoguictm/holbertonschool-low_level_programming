@@ -1,23 +1,20 @@
 #include "holberton.h"
 
 /**
- *rev_string - reverse strings
- *
- *@s: pointer
- *
+ * rev_string - rev string
+ * @s: ssssss
  */
+
 void rev_string(char *s)
 {
-	int a = 0, s = 0;
-	char ch;
+	int len, i;
+	char c;
 
-	while (s[s++])
-		a++;
-
-	for (s = a - 1; s >= a / 2; s--)
+	for (len = 0; s[len] != 0; len++)
 	{
-		ch = s[s];
-		s[s] = s[a - s - 1];
-		s[a - s - 1] = ch;
+	}
+	for (len = len - 1; len >= 0; len--)
+	{
+
 	}
 }
