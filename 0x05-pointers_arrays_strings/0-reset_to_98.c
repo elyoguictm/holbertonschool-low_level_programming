@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * reset_to_98 - Int n 
+ * reset_to_98 - Int n
  * @n: es una n
  *
  * Description: muchisimo texto para tan poco code
