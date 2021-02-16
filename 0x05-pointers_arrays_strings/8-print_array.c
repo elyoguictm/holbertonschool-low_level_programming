@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 {
 	int z;
 
-	for (z = 0; z < z; z++)
+	for (z = 0; z < n; z++)
 	{
 		if (z == 0)
 		{
