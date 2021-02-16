@@ -1,0 +1,19 @@
+#include "holberton.h"
+
+/**
+ * swap_int - Entry point
+ * @z: no tengo imaginacion
+ * @x: no tengo imaginacion x2
+ *
+ * Description: no quiero :c
+ * Return: 0
+ */
+
+void swap_int(int *z, int *x)
+{
+	int aux;
+
+	aux = *z;
+	*z = *x;
+	*x = aux;
+}
