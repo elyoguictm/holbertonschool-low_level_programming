@@ -13,7 +13,7 @@ char *rot13(char *s)
 	char input[] =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (z = 0; s[z] != '\0'; i=z++)
+	for (z = 0; s[z] != '\0'; z++)
 	{
 		for (x = 0; x < 54; x++)
 		{
