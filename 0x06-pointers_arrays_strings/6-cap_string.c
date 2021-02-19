@@ -13,7 +13,7 @@ char *cap_string(char *str)
 	char sep[] = ",\t;\n; .!?\"(){}";
 	int flag, z, x;
 
-	for (i = 0; str[z] != '\0'; z++)
+	for (z = 0; str[z] != '\0'; z++)
 	{
 		flag = 0;
 		if (z == 0)
