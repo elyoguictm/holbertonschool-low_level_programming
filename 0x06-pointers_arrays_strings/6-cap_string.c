@@ -7,6 +7,7 @@
  *
  * Return: str
  */
+
 char *cap_string(char *str)
 {
 	char sep[] = ",\t;\n; .!?\"(){}";
