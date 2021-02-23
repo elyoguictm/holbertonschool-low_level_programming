@@ -9,7 +9,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int c, x, z;
+	int z, x, c;
 
 	if (*needle == 0)
 		return (haystack);
