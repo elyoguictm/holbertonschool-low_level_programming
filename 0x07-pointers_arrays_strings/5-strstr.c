@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -10,14 +9,24 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int z, x, c;
+	unsigned int z = 0, x = 0;
 
-	if (needle == 0)
-		return (haystack);
-
-	for (x = 0; haystack[x]; x++)
-		for (c = 0, z = x; haystack[z] == needle[c]; c++, c++)
-			if (needle[c + 1] == '\0')
-				return (haystack + x);
+	while (haystack[z])
+	{
+		while (needle[x] && (haystack[z] == needle[0]))
+		{
+			if (haystack[z + x] == needle[x])
+				x++;
+			else
+				break;
+		}
+		if (needle[x])
+		{
+			z++;
+			x = 0;
+		}
+		else
+			return (haystack + z);
+	}
 	return (0);
 }
