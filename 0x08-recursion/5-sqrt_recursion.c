@@ -20,7 +20,7 @@ int square_root(int z, int x)
 
 /**
  * _sqrt_recursion - Sqrt
- * @c: int
+ * @n: int
  * Return: square root
  */
 
