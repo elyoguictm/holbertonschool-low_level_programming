@@ -24,7 +24,7 @@ int square_root(int z, int x)
  * Return: square root
  */
 
-int _sqrt_recursion(int c)
+int _sqrt_recursion(int n)
 {
-	return (square_root(0, c));
+	return (square_root(0, n));
 }
