@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * square_root - Square but root
+ * int _sqrt_recursion - Square but root
  * @z: int
  * @x: int
  * Return: sqaure root
  */
 
-int square_root(int z, int x)
+int _sqrt_recursion(int z, int x)
 {
 	if (x < 0)
 		return (-1);
