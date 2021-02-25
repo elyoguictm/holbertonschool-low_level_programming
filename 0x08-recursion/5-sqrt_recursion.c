@@ -6,7 +6,6 @@
  * @x: int
  * Return: sqaure root
  */
-
 int _sqrt_recursion(int z, int x)
 {
 	if (x < 0)
@@ -23,7 +22,6 @@ int _sqrt_recursion(int z, int x)
  * @n: int
  * Return: square root
  */
-
 int _sqrt_recursion(int n)
 {
 	return (square_root(0, n));
