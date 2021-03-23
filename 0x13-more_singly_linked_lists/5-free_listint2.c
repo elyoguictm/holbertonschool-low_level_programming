@@ -1,21 +1,30 @@
 #include "lists.h"
 
 /**
- * free_listint2 - free.
- * @head: cabeza.
- */
+*free_listint2 - Free list
+*@head: cabeza
+*Return: NULL
+*/
 
 void free_listint2(listint_t **head)
 {
-	listint_t *freee = NULL;
+	listint_t *z, *add;
 
-	if (head)
+	if (head == NULL)
+		return;
+
+	z = *head;
+
+	if (z != NULL)
 	{
-		while (*head)
+		for (; 1 == 1;)
 		{
-			freee = (*head)->next;
-			free(*head);
-			*head = freee;
+			add = z;
+			z = (*z).next;
+			free(add);
+			if (z == NULL)
+				break;
 		}
 	}
+	*head = NULL;
 }
