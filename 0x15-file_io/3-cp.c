@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int f, x, l, f;
+	int f, x, l, ff;
 	char buffer[1024];
 
 	if (argc != 3)
@@ -28,14 +28,14 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 	do {
 		l = read(x, buffer, 1024);
-		f = write(f, buffer, l);
+		ff = write(f, buffer, l);
 	} while (l == 1024);
 
 	if (l < 0)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n",
 			argv[1]), exit(98);
 
-	if (f < 0)
+	if (ff < 0)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n",
 			argv[2]), exit(99);
 
