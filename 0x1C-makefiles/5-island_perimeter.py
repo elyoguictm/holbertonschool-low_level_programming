@@ -10,5 +10,5 @@ def island_perimeter(grid):
             if x == 1:
                 perim += 2
     if perim > 0:
-        perium += 2
+        perim += 2
     return perim
