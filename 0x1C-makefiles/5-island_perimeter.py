@@ -6,7 +6,7 @@ def island_perimeter(grid):
     """Returns the perimeter of the island described in grid"""
     perim = 0
     for z in grid:
-        for x in row:
+        for x in z:
             if x == 1:
                 perim += 2
     if perim > 0:
