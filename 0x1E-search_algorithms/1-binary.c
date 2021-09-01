@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * array_print - prints an array
+ * print_array - prints an array
  * @array: array to print
  * @start: first to print
  * @end: last to print
